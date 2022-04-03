@@ -8,5 +8,10 @@ namespace DataBindingDemos.Views
         {
             InitializeComponent();
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            entryInput.Focus();
+        }
     }
 }

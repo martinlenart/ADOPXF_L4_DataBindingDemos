@@ -7,7 +7,7 @@
 
         <StackLayout VerticalOptions="FillAndExpand"
                      BindingContext="{x:Reference slider}">
-
+            <Entry x:Name="entryInput" Placeholder="" />
             <Label Text="TEXT"
                    FontSize="80"
                    HorizontalOptions="Center"
